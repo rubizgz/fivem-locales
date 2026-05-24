@@ -1,0 +1,315 @@
+{
+    "notify": {
+        "cant-carry": "No puedes cargar tanto",
+        "already-searched": "Aquí no parece haber nada",
+        "limit-reached": "Sientes que deberías tomarte un descanso",
+        "not-experienced": "Todavía no tienes la experiencia suficiente para hacer esto",
+        "max-tables": "Creo que ya tengo suficientes mesas",
+        "max-plants": "Creo que ya tengo suficientes plantas",
+        "no-police": "No hay suficientes policías en la ciudad",
+        "no-pot": "Debería poner esto en una olla o algo así",
+        "no-water": "No tienes suficiente agua",
+        "no-fertilizer": "No tienes suficiente fertilizante",
+        "no-shears": "Unas tijeras serían útiles",
+        "cant-place": "No puedes colocar eso aquí",
+        "missing-item": "Necesito %s para hacer esto",
+        "missing-metadata": "No tienes suficiente",
+        "no-money": "No tienes suficiente dinero",
+        "lab-limit": "Ya posees la cantidad máxima de laboratorios",
+        "door-locked": "La puerta está cerrada con llave",
+        "door-lock-changed": "Tienes %s la puerta",
+        "create-stash-passcode": "Has creado un nuevo código de acceso",
+        "change-stash-passcode": "Has cambiado el código de acceso",
+        "remove-stash-passcode": "Has eliminado el código de acceso",
+        "transfer-self": "Este laboratorio ya es tuyo",
+        "transfer-invalid": "El objetivo no está disponible o no es válido",
+        "transfer-level": "El objetivo debe tener al menos el nivel %s",
+        "transfer-max": "El objetivo ya no puede poseer más laboratorios",
+        "transfer-success-owner": "Has completado la transferencia",
+        "transfer-success-target": "Usted ha recibido la propiedad de un laboratorio",
+        "auth-user-invalid": "El objetivo no está disponible o no es válido",
+        "auth-user-self": "No puedes agregarte",
+        "auth-user-exists": "El objetivo ya es un usuario autorizado",
+        "auth-user-added": "Has añadido a %s correctamente",
+        "auth-user-edited": "Has editado correctamente los permisos de %s",
+        "auth-user-removed": "Has eliminado a %s correctamente",
+        "no-permission": "No tienes permiso para hacer esto",
+        "invalid-stash-passcode": "El código de acceso que ingresaste es incorrecto",
+        "raid-stash-failed": "No lograste entrar al alijo",
+        "raid-entry-failed": "No lograste entrar al laboratorio",
+        "confiscate-success": "Se ha notificado al servicio de mensajería y se está procediendo a la confiscación"
+    },
+    "target": {
+        "search-coca": "Buscar",
+        "use-table": "Usar",
+        "use-station": "Usar",
+        "check-status": "Comprobar estado",
+        "take-cement": "Coger cemento",
+        "open-shop": "Hablar",
+        "enter-lab": "Entrar",
+        "exit-lab": "Salir",
+        "open-stash": "Abrir alijo",
+        "manage-lab": "Administrar laboratorio",
+        "confiscate-equipment": "Confiscar el equipo"
+    },
+    "textui": {
+        "plant-controls": "**Controles**  \n **W**: Avanzar  \n **S**: Retroceder  \n **A**: Mover a la izquierda  \n **D**: Mover a la derecha  \n **X**: Cancelar  \n **Espacio**: Confirmar",
+        "table-controls": "**Controles**  \n **Q**: Rotar a la izquierda  \n **E**: Rotar a la derecha  \n **W**: Avanzar  \n **S**: Retroceder  \n **A**: Mover a la izquierda  \n **D**: Mover a la derecha  \n **X**: Cancelar  \n **Espacio**: Confirmar",
+        "camera-controls": "**Controles**  \n **W**: Rotar hacia arriba  \n **A**: Rotar a la izquierda  \n **S**: Rotar hacia abajo  \n **D**: Rotar a la derecha  \n **Q**: Alejar  \n **E**: Acercar  \n **Retroceso**: Salir"
+    },
+    "alerts": {
+        "pickup": {
+            "header": "**Confirmar acción**",
+            "content": "¿Estás seguro de que quieres empacar la mesa?"
+        },
+        "destroy": {
+            "header": "**Confirmar acción**",
+            "content": "¿Estás seguro de que quieres destruir esta planta?"
+        },
+        "raid-stash": {
+            "header": "**Interrumpir**",
+            "content": "¿Estás seguro de que quieres entrar a robar en este alijo?"
+        },
+        "raid-entry": {
+            "header": "**Interrumpir**",
+            "content": "¿Estás seguro de que quieres entrar a robar en este laboratorio?"
+        },
+        "remove-authorized-user": {
+            "header": "Eliminar usuario",
+            "content": "¿Está seguro de que desea eliminar a %s de la lista de usuarios autorizados?"
+        }
+    },
+    "inputs": {
+        "shops": {
+            "label": "Cantidad",
+            "desc": "¿Cuántos quieres comprar?"
+        },
+        "gas": {
+            "label": "Gasolina",
+            "desc": "¿Cuánta gasolina quieres añadir?"
+        },
+        "cement": {
+            "label": "Cemento",
+            "desc": "¿Cuánto cemento quieres añadir?"
+        },
+        "brick": {
+            "label": "Seleccionar tipo",
+            "desc": "¿Qué ladrillo quieres seleccionar?",
+            "options": {
+                "cocaine": "Cocaína",
+                "crack": "Crack"
+            }
+        },
+        "confiscate": {
+            "title": "Acciones policiales",
+            "manufacturing": "Equipo de fabricación",
+            "security": "Equipo de seguridad"
+        },
+        "stash": {
+            "title": "Alijo",
+            "label": "Introduzca el código de acceso",
+            "desc": "Se requiere un código de acceso para acceder a este alijo"
+        },
+        "passcode": {
+            "title": "Crear código de acceso",
+            "label": "Código de acceso",
+            "desc": "Introduzca un nuevo código de acceso"
+        },
+        "change-passcode": {
+            "title": "Cambiar código de acceso",
+            "label": "Código de acceso",
+            "desc": "Introduzca un nuevo código de acceso"
+        },
+        "transfer-ownership": {
+            "title": "Transferir propiedad",
+            "label": "ID del jugador",
+            "desc": "Introduce el ID del jugador al que deseas transferir la propiedad"
+        },
+        "sell-lab": {
+            "title": "Vender laboratorio",
+            "label": "Confirmar venta",
+            "desc": "Esta acción es irreversible, escriba '%s' para continuar"
+        },
+        "add-authorized-user": {
+            "title": "Agregar usuario autorizado",
+            "label": "ID del jugador",
+            "desc": "Introduce el ID del jugador que deseas añadir"
+        },
+        "manage-authorized-user": {
+            "title": "Gestionar usuario",
+            "label": "Seleccionar acción",
+            "desc": "¿Qué es lo que quieres hacer?",
+            "edit": "Editar permisos",
+            "remove": "Eliminar usuario"
+        },
+        "edit-authorized-user": {
+            "title": "Editar %s",
+            "access-lab": "Acceso al laboratorio (siempre concedido)",
+            "manage-door": "Bloquear/desbloquear puerta",
+            "view-camera": "Ver cámara de seguridad",
+            "manage-users": "Agregar o eliminar usuarios autorizados"
+        }
+    },
+    "player-data": {
+        "level-title": "Cocaína | Nivel %s/%s",
+        "level-desc": "Actualmente tienes %s XP",
+        "stats-title": "Estadísticas de por vida",
+        "stats-desc": "Consulta tus estadísticas de consumo de cocaína de por vida",
+        "meta-next-level": "Siguiente nivel",
+        "meta-remainder": "Resto",
+        "meta-maxed-level": "Nivel máximo alcanzado"
+    },
+    "stats-menu": {
+        "main-title": "Estadísticas de por vida",
+        "leaves-title": "Hojas",
+        "leaves-desc": "Has cosechado un total de %s hojas de coca",
+        "grown-title": "Plantas",
+        "grown-desc": "Has cultivado un total de %s plantas de coca",
+        "cement-title": "Cemento",
+        "cement-desc": "Has recogido un total de %s sacos de cemento",
+        "bricks-title": "Ladrillos",
+        "bricks-desc": "Has producido un total de %s ladrillos"
+    },
+    "table-menu": {
+        "main-title": "Cocaína",
+        "production-title": "Producción",
+        "production-desc": "Comienza a producir un lote de cocaína",
+        "in-progress-title": "En curso",
+        "in-progress-desc": "Tiempo restante hasta la finalización - %s minuto(s)",
+        "take-product-title": "Coger producto",
+        "take-product-desc": "Coger el producto de la mesa",
+        "process-leaves-title": "Procesar hojas",
+        "process-leaves-desc": "Comienza a procesar las hojas de coca",
+        "add-gas-title": "Añadir gasolina",
+        "add-gas-desc": "Añadir gasolina a las hojas procesadas",
+        "add-cement-title": "Añadir cemento",
+        "add-cement-desc": "Añadir cemento a la base de coca",
+        "start-heat-title": "Calentar y secar",
+        "start-heat-desc": "Calentar y secar la base de coca",
+        "cook-coke-title": "Cocinar cocaína",
+        "cook-coke-desc": "Opcionalmente, se puede cocinar la cocaína un poco más para hacer crack",
+        "cut-brick-title": "Cortar ladrillo",
+        "cut-brick-desc": "Opcionalmente, puedes cortar el ladrillo con bicarbonato de sodio para obtener más cantidad",
+        "package-title": "Empaquetar en bolsas",
+        "package-desc": "Divide un ladrillo en bolsitas más pequeñas",
+        "packup-title": "Recoger",
+        "packup-desc": "Guarda todo y retira esta mesa"
+    },
+    "plant-menu": {
+        "main-title": "Planta de cocaína",
+        "water-title": "Agua",
+        "water-desc": "Nivel actual de agua - %.1f%% (Haz clic aquí para regar)",
+        "fertilizer-title": "Fertilizante",
+        "fertilizer-desc": "Nivel actual de hambre - %.1f%% (Haz clic aquí para alimentar)",
+        "growth-title": "Crecimiento",
+        "growth-desc": "Nivel actual de crecimiento - %.1f%%",
+        "yield-title": "Rendimiento",
+        "yield-desc": "Potencial actual del rendimiento máximo - %.1f%%",
+        "destroy-title": "Destruir",
+        "destroy-desc": "Destruir irreversiblemente esta planta",
+        "harvest-title": "Cosechar",
+        "harvest-desc-not-ready": "La cosecha solo está disponible cuando el crecimiento alcanza el 100%",
+        "harvest-desc-ready": "Ya puedes cosechar esta planta"
+    },
+    "lab-shop-menu": {
+        "main-title": "Disponibilidad del laboratorio",
+        "confirm-title": "Confirmar compra",
+        "lab-title": "Comprar por $%s",
+        "confirm-purchase-title": "Sí",
+        "confirm-purchase-desc": "Confirmar la compra del almacén por $%s",
+        "cancel-purchase-title": "No",
+        "cancel-purchase-desc": "Cancelar la compra y volver a la selección",
+        "set-waypoint-title": "Fijar ruta",
+        "set-waypoint-desc": "Establecer un punto de ruta para ver dónde está este almacén"
+    },
+    "manage-lab-menu": {
+        "main-title": "Administrar laboratorio",
+        "manage-security-title": "Seguridad",
+        "manage-security-desc": "Administra la seguridad de tu laboratorio",
+        "upgrade-equipment-title": "Mejorar equipo",
+        "upgrade-equipment-desc": "Mejora el equipo de tu laboratorio",
+        "install-security-title": "Instalar seguridad",
+        "install-security-desc": "Añade equipo de seguridad a tu laboratorio",
+        "upgrade-pending-title": "Mejora pendiente",
+        "upgrade-pending-desc": "Tiempo est. restante hasta finalizar - %sm %ss",
+        "ownership-title": "Propiedad",
+        "ownership-desc": "Administra la propiedad de tu laboratorio"
+    },
+    "manage-security-menu": {
+        "main-title": "Administrar seguridad",
+        "doorlock-title": "Estado de la puerta",
+        "doorlock-desc": "La puerta está actualmente %s",
+        "create-passcode-title": "Crear código de acceso",
+        "create-passcode-desc": "Añade un código único para acceder al alijo (o alijos)",
+        "change-passcode-title": "Cambiar código de acceso",
+        "change-passcode-desc": "Cambia el código para acceder al alijo (o alijos)",
+        "remove-passcode-title": "Eliminar código de acceso",
+        "remove-passcode-desc": "Elimina el código para acceder al alijo (o alijos)",
+        "authorized-users-title": "Usuarios autorizados",
+        "authorized-users-desc": "Administra quién tiene acceso a tu laboratorio",
+        "security-camera-title": "Ver cámara",
+        "security-camera-desc": "Ver la transmisión de la cámara de seguridad"
+    },
+    "manage-authorized-users-menu": {
+        "main-title": "Usuarios autorizados",
+        "add-user-title": "Añadir usuario",
+        "add-user-desc": "Añade un jugador a la lista de usuarios autorizados",
+        "manage-user-desc": "Haz clic para administrar el acceso de este usuario"
+    },
+    "manage-ownership-menu": {
+        "main-title": "Administrar propiedad",
+        "transfer-owner-title": "Transferir",
+        "transfer-owner-desc": "Transfiere la propiedad de este laboratorio",
+        "sell-lab-title": "Vender",
+        "sell-lab-desc": "Vender este edificio al estado"
+    },
+    "shop-menu": {
+        "title": "Tienda de Rusty",
+        "desc": "Comprar %s por $%s"
+    },
+    "dispatch": {
+        "cement": {
+            "title": "Robo reportado",
+            "code": "10-31",
+            "message": "Una persona anónima ha reportado un robo en curso cerca de %s"
+        },
+        "cooking-table": {
+            "title": "Área sospechosa",
+            "code": "10-87",
+            "message": "Una persona anónima ha reportado actividad sospechosa cerca de %s"
+        },
+        "cooking-lab": {
+            "title": "Fuerte olor",
+            "code": "10-87",
+            "message": "Una persona anónima ha reportado un fuerte olor químico cerca de %s"
+        }
+    },
+    "logs": {
+        "leaves-harvested-title": "Hojas de coca",
+        "leaves-harvested-message": "%s (identificador: %s) ha cosechado x%d %s",
+        "cement-collected-title": "Cemento recolectado",
+        "cement-collected-message": "%s (identificador: %s) ha recolectado x%d %s",
+        "table-placed-title": "Mesa colocada",
+        "table-placed-message": "%s (identificador: %s) ha colocado una mesa en %s (IdMesa: %s)",
+        "table-brick-title": "Ladrillo recolectado",
+        "table-brick-message": "%s (identificador: %s) ha recolectado un ladrillo de cocaína (IdMesa: %s)",
+        "table-packaged-title": "Ladrillo empaquetado",
+        "table-packaged-message": "%s (identificador: %s) ha empaquetado un ladrillo de cocaína en %s bolsitas (IdMesa: %s)",
+        "table-removed-title": "Mesa retirada",
+        "table-removed-message": "%s (identificador: %s) ha recogido una mesa (IdMesa: %s)",
+        "lab-purchase-title": "Laboratorio comprado",
+        "lab-purchase-message": "%s (identificador: %s) ha comprado un laboratorio (IdLab: %s) por $%s",
+        "lab-brick-title": "Ladrillo recolectado",
+        "lab-brick-message": "%s (identificador: %s) ha recolectado un ladrillo de cocaína (IdLab: %s, IdEstación: %s)",
+        "lab-packaged-title": "Ladrillo empaquetado",
+        "lab-packaged-message": "%s (identificador: %s) ha empaquetado un/a %s en x%s bolsitas (IdLab: %s, IdEstación: %s)",
+        "lab-upgrade-title": "Laboratorio mejorado",
+        "lab-upgrade-message": "El laboratorio (IdLab: %s) ha completado una mejora",
+        "lab-door-title": "Puerta del laboratorio",
+        "lab-door-message": "%s (identificador: %s) ha %s la puerta del laboratorio (IdLab: %s)",
+        "lab-transfer-title": "Transferencia de propiedad del laboratorio",
+        "lab-transfer-message": "%s (identificador: %s) ha transferido la propiedad del laboratorio (IdLab: %s) a %s (identificador: %s)",
+        "lab-sold-title": "Laboratorio vendido",
+        "lab-sold-message": "%s (identificador: %s) ha vendido su laboratorio (IdLab: %s) al estado por $%s"
+    }
+}

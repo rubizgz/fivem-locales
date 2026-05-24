@@ -1,0 +1,123 @@
+{
+    "notify": {
+        "cant-carry": "No puedes cargar con tanto peso",
+        "cant-chop-here": "No puedes hacer esto aquí",
+        "not-started": "Aún no has empezado a desmantelar",
+        "requested-vehicle": "Te avisaré cuando tenga algo disponible",
+        "start-chop": "Ya puedes empezar a desmantelar",
+        "missing-tool": "Te falta la herramienta para hacer esto",
+        "tool-broke": "¡Maldita sea! Rompí la herramienta...",
+        "part-completed": "Hm, no hay nada que quitar aquí",
+        "no-police": "No hay suficientes policías de servicio",
+        "not-enough-parts": "No tienes suficientes piezas para intercambiar",
+        "not-enough-money": "No tienes suficiente dinero",
+        "invalid-player": "El objetivo no está disponible o no es válido",
+        "already-in-group": "Ya estás en un grupo",
+        "target-already-in-group": "El objetivo ya está en un grupo",
+        "target-owns-a-group": "El objetivo ya es dueño de un grupo",
+        "owner-left-group": "Tu grupo fue disuelto",
+        "member-left-group": "Has abandonado el grupo",
+        "owner-added-member": "Has añadido a %s al grupo",
+        "member-added": "%s te agregó a su grupo de desguace",
+        "owner-removed-member": "Has eliminado a %s del grupo",
+        "member-removed": "%s te sacó de su grupo de desguace"
+    },
+    "target": {
+        "talk": "Hablar",
+        "start-chop": "Empezar a desmantelar",
+        "remove-bonnet": "Quitar capó",
+        "remove-door": "Quitar puerta",
+        "remove-wheel": "Quitar rueda",
+        "remove-boot": "Quitar maletero",
+        "complete-chop": "Desguazar chasis"
+    },
+    "textui": {
+        "vehicle-finder": {
+            "label": "**Buscador de vehículos**  \n Modelo asignado: %s  \n Coincidencias cercanas: %s"
+        }
+    },
+    "inputs": {
+        "shops": {
+            "label": "Cantidad",
+            "desc": "¿Cuántos?"
+        },
+        "player": {
+            "label": "Jugador",
+            "desc": "Introduce la ID del jugador"
+        }
+    },
+    "alerts": {
+        "vehicle-chopped": {
+            "header": "¿Continuar desmantelando?",
+            "content": "¡Buen trabajo! Has terminado de desmantelar el %s. ¿Te gustaría continuar?",
+            "labels": {
+                "confirm": "Continuar",
+                "cancel": "Parar"
+            }
+        }
+    },
+    "player-data": {
+        "level-title": "Desguace | Nivel %s/%s",
+        "level-desc": "Actualmente tienes %s XP",
+        "stats-title": "Estadísticas",
+        "stats-desc": "Consulta tus estadísticas históricas de desguace",
+        "meta-next-level": "Siguiente nivel",
+        "meta-remainder": "Resto",
+        "meta-maxed-level": "Nivel máximo alcanzado"
+    },
+    "stats-menu": {
+        "main-title": "Estadísticas",
+        "vehicles-title": "Vehículos",
+        "vehicles-desc": "Has desmantelado un total de %s vehículos",
+        "parts-title": "Piezas",
+        "parts-desc": "Has recibido un total de %s piezas"
+    },
+    "chop-menu": {
+        "main-title": "Taller de desguace",
+        "leaderboards-title": "Clasificación",
+        "leaderboards-desc": "Ver los 10 mejores desguazadores",
+        "tool-shop-title": "Tienda de herramientas",
+        "tool-shop-desc": "Compra herramientas para desmantelar",
+        "swap-shop-title": "Tienda de intercambio",
+        "swap-shop-desc": "Intercambia piezas de coche por otras cosas",
+        "create-group-title": "Crear grupo",
+        "create-group-desc": "Desmantela solo o con amigos, ¡empieza aquí!",
+        "manage-group-title": "Administrar grupo",
+        "manage-group-desc": "Administra tu grupo de desguace",
+        "start-chop-title": "Solicitar trabajo",
+        "start-chop-desc": "Recibe un vehículo asignado para buscarlo y desmantelarlo"
+    },
+    "manage-group-menu": {
+        "main-title": "Administrar grupo",
+        "add-member-title": "Añadir miembro",
+        "add-member-desc": "Añade un miembro a tu grupo de desguace",
+        "remove-member-desc": "Haz clic para eliminar al miembro del grupo",
+        "leave-group-title": "Dejar el grupo",
+        "leave-group-desc": "Abandona tu grupo de desguace"
+    },
+    "swap-menu": {
+        "main-title": "Tienda de intercambio",
+        "item-desc": "Intercambia x%s piezas de coche por x%s %s"
+    },
+    "tool-menu": {
+        "main-title": "Tienda de herramientas",
+        "item-desc": "Comprar %s por $%s"
+    },
+    "leaderboard-menu": {
+        "main-title": "Clasificación",
+        "player-desc": "Nivel: %s | XP: %s | Desguaces totales: %s"
+    },
+    "emails": {
+        "vehicle-assigned": "Oye, soy yo. Necesito que encuentres y desmanteles un %s para mí lo antes posible. ¡Ten cuidado y buena suerte!"
+    },
+    "logs": {
+        "part-chopped-title": "Pieza desmantelada",
+        "part-chopped-desc": "%s (identificador: %s) ha desmantelado una pieza (hueso: %s) de un vehículo y ha recibido x%s %s",
+        "item-purchased-title": "Objeto comprado",
+        "item-purchased-desc": "%s (identificador: %s) ha comprado x%s %s por $%s",
+        "item-swapped-title": "Objeto intercambiado",
+        "item-swapped-desc": "%s (identificador: %s) ha intercambiado x%s %s por x%s %s",
+        "tool-broke-title": "Herramienta rota",
+        "tool-broke-desc": "%s (identificador: %s) ha roto su %s"
+    }
+}

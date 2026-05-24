@@ -1,0 +1,125 @@
+{
+    "notify": {
+        "no-money": "No tienes suficiente dinero",
+        "not-experienced": "No creo tener la experiencia suficiente para hacer esto",
+        "cant-carry": "No puedes cargar con tanto peso",
+        "no-durability": "¡Tu tanque de oxígeno está vacío!",
+        "no-scuba-gear": "No dispones de equipo de buceo para transferir oxígeno",
+        "scuba-gear-full": "Tu equipo de buceo ya está lleno",
+        "refill-success": "Has añadido correctamente más oxígeno a tu equipo de buceo",
+        "release-anchor": "Ancla de barco liberada",
+        "set-anchor": "Juego de anclas para barcos",
+        "invalid-player": "El destino no está disponible o no es válido",
+        "already-in-group": "Ya estás en un grupo",
+        "target-already-in-group": "El objetivo ya está en un grupo",
+        "target-owns-a-group": "El objetivo ya es dueño de un grupo",
+        "owner-left-group": "Tu grupo fue disuelto",
+        "member-left-group": "Dejaste el grupo",
+        "owner-added-member": "Has añadido a %s al grupo",
+        "member-added": "%s te agregó a su grupo de buceo",
+        "owner-removed-member": "Has eliminado a %s del grupo",
+        "member-removed": "%s te sacó de su grupo de buceo"
+    },
+    "target": {
+        "start-diving": "Hablar",
+        "toggle-anchor": "Alternar ancla",
+        "pickup-crate": "Recoger"
+    },
+    "textui": {
+        "underwater": "Oxígeno restante: %s%%  \n Profundidad actual: %s%s  \n Profundidad récord: %s%s  \n Cajas encontradas: %s/%s"
+    },
+    "inputs": {
+        "quantity": {
+            "label": "Cantidad",
+            "desc": "¿Cuánta cantidad?"
+        },
+        "player": {
+            "label": "Jugador",
+            "desc": "Introduce la ID del jugador"
+        }
+    },
+    "alerts": {
+        "continue-diving": {
+            "header": "¿Continuar buceando?",
+            "content": "¡Gran trabajo! Tu grupo ha recogido todas las cajas. ¿Te gustaría continuar buceando?",
+            "labels": {
+                "confirm": "Continuar",
+                "cancel": "Parar"
+            }
+        }
+    },
+    "emails": {
+        "searching": "¡Oye! Soy yo. Dame algo de tiempo para intentar localizar información sobre puntos clave donde podrías encontrar algunas cajas. Cuando tenga algo, ¡te lo haré saber!",
+        "found-something": "¡Oye! ¡Tengo información sobre un punto clave! Dirígete a la zona marcada en tu GPS y mira a ver si encuentras algo. ¡Buena suerte!"
+    },
+    "player-data": {
+        "level-title": "Buceo | Nivel %s/%s",
+        "level-desc": "Actualmente tienes %s XP",
+        "stats-title": "Estadísticas",
+        "stats-desc": "Consulta tus estadísticas de buceo de por vida",
+        "meta-next-level": "Siguiente nivel",
+        "meta-remainder": "Resto",
+        "meta-maxed-level": "Nivel máximo alcanzado"
+    },
+    "stats-menu": {
+        "main-title": "Estadísticas",
+        "crates-title": "Cajas",
+        "crates-desc": "Has recogido un total de %s cajas",
+        "depth-title": "Profundidad",
+        "depth-desc": "Tu inmersión más profunda registrada es de %s%s",
+        "swam-title": "Distancia nadada",
+        "swam-desc": "Has nadado un total de %s%s bajo el agua"
+    },
+    "diving-menu": {
+        "main-title": "Buceo",
+        "leaderboards-title": "Clasificación",
+        "leaderboards-desc": "Ver a los 10 mejores buceadores",
+        "shop-title": "Tienda de buceo",
+        "shop-desc": "Comprar equipo de buceo",
+        "rental-title": "Alquilar un barco",
+        "rental-desc": "¿No tienes un barco? ¡No hay problema!",
+        "create-group-title": "Crear grupo",
+        "create-group-desc": "Buceando solo o con amigos, ¡empieza aquí!",
+        "manage-group-title": "Administrar grupo",
+        "manage-group-desc": "Administra tu grupo de buceo",
+        "rental-return-title": "Devolver barco",
+        "rental-return-desc": "Devuelve tu barco alquilado",
+        "start-title": "Empezar a bucear",
+        "start-desc": "¿Tienes tu equipo? ¿Un barco? ¡Vamos!",
+        "stop-title": "Dejar de bucear",
+        "stop-desc": "¿Has pasado suficiente tiempo bajo el agua? ¡Tomemos un descanso!"
+    },
+    "shop-menu": {
+        "main-title": "Tienda de buceo",
+        "tank-title": "%s | Nivel %s",
+        "item-desc": "Comprar %s por $%s"
+    },
+    "manage-group-menu": {
+        "main-title": "Administrar grupo",
+        "add-member-title": "Añadir miembro",
+        "add-member-desc": "Añade un miembro a tu grupo de buceo",
+        "remove-member-desc": "Haz clic para eliminar al miembro del grupo",
+        "leave-group-title": "Dejar el grupo",
+        "leave-group-desc": "Abandona tu grupo de buceo"
+    },
+    "leaderboard-menu": {
+        "main-title": "Clasificación",
+        "player-desc": "Nivel: %s | XP: %s | Cajas totales: %s"
+    },
+    "logs": {
+        "crate-found-title": "Caja encontrada",
+        "crate-found-message": "%s (identificador: %s) ha recogido una caja en %s",
+        "crate-opened-title": "Caja abierta",
+        "crate-opened-message": "%s (identificador: %s) ha abierto una caja y ha recibido %s",
+        "item-purchased-title": "Compra en la tienda",
+        "item-purchased-message": "%s (identificador: %s) ha comprado x%d %s",
+        "boat-rented-title": "Alquiler de barco",
+        "boat-rented-message": "%s (identificador: %s) ha alquilado un barco por $%s",
+        "boat-returned-title": "Barco devuelto",
+        "boat-returned-message": "%s (identificador: %s) ha devuelto un barco alquilado y ha recibido $%s de vuelta"
+    },
+    "measurements": {
+        "meters": "m",
+        "feet": "ft"
+    }
+}
